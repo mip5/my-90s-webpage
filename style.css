@@ -1,0 +1,95 @@
+/* 90s style homepage CSS */
+
+body {
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/pw_maze_white.png");
+  background-repeat: repeat;
+  font-family: 'Comic Sans MS', Arial, sans-serif;
+  color: #222;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  cursor: url("https://icons.iconarchive.com/icons/dragonartz/cursor/32/Cursor-Arrow-icon.png"), auto;
+}
+
+h1 {
+  color: #ff3399;
+  font-size: 36px;
+  text-shadow: 2px 2px 0 #fff;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #3399ff;
+  font-size: 28px;
+  text-decoration: underline;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #ff6600;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 10px auto 20px auto;
+}
+
+.png-img, .gif {
+  width: 200px;
+  margin: 10px;
+  padding: 5px;
+  border: 3px dotted #333;
+  box-shadow: 5px 5px 0 rgba(0,0,0,0.4);
+  background-color: #fff;
+}
+
+ul {
+  text-align: left;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px auto 20px auto;
+  border: 2px dashed #3399ff;
+  background-color: #f9f9f9;
+  box-shadow: 3px 3px 0 rgba(0,0,0,0.3);
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 50%;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
+}
+
+th, td {
+  border: 2px solid #333;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+th {
+  background-color: #ffcc00;
+  font-size: 18px;
+}
+
+a {
+  color: #ff6600;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff3399;
+}
+
+body > * {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
